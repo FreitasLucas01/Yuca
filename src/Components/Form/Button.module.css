@@ -1,0 +1,15 @@
+.button {
+  width: 146px;
+  font: var(--font-weight-600) var(--font-size-smallest) / 1.39 var(--font-sans);
+  border: none;
+  background: var(--color-dark);
+  color: var(--color-lightest);
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .button {
+    font: var(--font-weight-800) var(--font-size-smallest) / 1.39
+      var(--font-sans);
+  }
+}

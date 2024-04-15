@@ -1,0 +1,168 @@
+.projectDetails {
+  max-width: 1000px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 75px 25px;
+  gap: 150px;
+}
+
+.projectDetailsTitle {
+  font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
+  color: var(--color-tertiaryLight);
+  margin-bottom: 20px;
+}
+
+.projectDetailsSubtitle {
+  font: var(--font-weight-400) var(--font-size-smallest) / 1.35
+    var(--font-sans-2);
+  max-width: 31ch;
+  margin-bottom: 100px;
+}
+
+.cardBackground {
+  position: relative;
+  max-width: 100%;
+  height: 80vh;
+}
+
+.cardBackgroundCouch {
+  background: url("../img/couch.svg") center no-repeat;
+}
+.cardBackgroundManLaptop {
+  background: url("../img/manLaptop.svg") center no-repeat;
+}
+.cardBackgroundWomanLaptop {
+  background: url("../img/womanLaptop.svg") center no-repeat;
+}
+.cardBackgroundBed {
+  background: url("../img/bed.svg") center no-repeat;
+}
+
+.cardContainer {
+  position: absolute;
+  width: 341px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.cardContainerColor1 {
+  background: var(--color-soft);
+  padding-left: 20px;
+  top: -27px;
+  left: -53px;
+}
+.cardContainerColor2 {
+  background: var(--color-secondaryLight);
+  top: -30px;
+  left: 150px;
+}
+.cardContainerColor2::after {
+  content: url("../img/leafDown.svg");
+  position: absolute;
+  bottom: -129px;
+  right: -35px;
+}
+.cardContainerColor3 {
+  background: var(--color-softer);
+  top: 22px;
+  right: 150px;
+}
+.cardContainerColor3::before {
+  content: url("../img/leafUp.svg");
+  position: absolute;
+  top: -126px;
+  left: -71px;
+}
+.cardContainerColor4 {
+  background: var(--color-lighter);
+  right: -36px;
+}
+
+.cardContainerSmaller {
+  max-height: 159px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cardTitle {
+  font: var(--font-weight-600) var(--font-size-smallest) / 1.35
+    var(--font-sans-2);
+  max-width: 22ch;
+}
+
+.cardImg {
+  margin-top: 37px;
+}
+
+.cardText {
+  font: var(--font-weight-400) var(--font-size-tiny) / 1.5 var(--font-sans-2);
+  max-width: 27ch;
+}
+
+@media (max-width: 930px) {
+  .projectDetails {
+    margin-inline: auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .projectDetailsTitle {
+    text-align: center;
+  }
+
+  .projectDetailsSubtitle {
+    text-align: center;
+    max-width: 50ch;
+    margin-bottom: 50px;
+    margin-inline: auto;
+  }
+
+  .cardBackground {
+    position: initial;
+    max-width: max-content;
+    margin-inline: auto;
+    height: max-content;
+  }
+
+  .cardContainer {
+    padding: 20px;
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .cardContainerColor1 {
+    padding: 20px 15px;
+    gap: 10px;
+  }
+
+  .cardContainerColor2::after {
+    content: initial;
+  }
+  .cardContainerColor3::before {
+    content: initial;
+  }
+
+  .cardImg {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .projectDetails {
+    padding: 40px 25px;
+  }
+
+  .projectDetailsTitle {
+    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+  }
+}

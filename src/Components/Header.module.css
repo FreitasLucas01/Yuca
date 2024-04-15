@@ -1,0 +1,8 @@
+.headerContainer{
+    max-width: 1668px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
