@@ -3,7 +3,7 @@
   margin-inline: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 75px 25px;
+  padding: 75px 25px 0px 25px;
   gap: 150px;
 }
 

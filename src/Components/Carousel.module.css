@@ -1,0 +1,89 @@
+.carouselContainer {
+  background: url("../img/carouselBackground.svg") no-repeat center;
+  height: 70vh;
+  padding: 0px 25px;
+}
+
+.carouselTexts {
+  padding-top: 56px;
+  text-align: center;
+}
+
+.carouselTitle {
+  font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
+  color: var(--color-darker);
+  margin-bottom: 6px;
+}
+
+.carouselSubtitle {
+  font: var(--font-weight-600) var(--font-size-small) / 1.25 var(--font-sans);
+}
+
+.carouselClients {
+  position: relative;
+  margin-inline: auto;
+  max-width: 880px;
+  margin-top: 30px;
+}
+
+.arrowButton {
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.prevButton {
+  top: 50%;
+  left: -7%;
+  cursor: pointer;
+}
+
+.nextButton {
+  top: 50%;
+  right: -7%;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .carouselContainer {
+    margin-top: 40px;
+  }
+
+  .carouselClients {
+    max-width: 430px;
+  }
+
+  .prevButton {
+    left: -10%;
+  }
+
+  .nextButton {
+    right: -10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .carouselTitle {
+    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+  }
+
+  .carouselSubtitle {
+    font: var(--font-weight-500) var(--font-size-smallest) / 1.25
+      var(--font-sans);
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  .carouselTexts {
+    padding-top: 20px;
+  }
+
+  .carouselClients {
+    max-width: 300px;
+  }
+
+.arrowButton {
+  display: none;
+}
+}

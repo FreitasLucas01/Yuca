@@ -6,6 +6,8 @@ import Banner from "./Components/Banner";
 import Investing from "./Components/Investing";
 import Project from "./Components/Project";
 import ProjectDetails from "./Components/ProjectDetails";
+import Carousel from "./Components/Carousel";
+import CardCarousel from "./Components/CardCarousel";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Investing />
       <Project />
       <ProjectDetails />
+      <Carousel />
+      {/* <CardCarousel /> */}
       <Footer />
     </div>
   );
