@@ -22,10 +22,11 @@ const Carousel = () => {
 
   const settings = {
     dots: true,
+    dotsClass: styles.buttonBar,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     arrows: false,
     responsive: [
@@ -94,13 +95,19 @@ const Carousel = () => {
         </p>
       </div>
       <div className={`${styles.carouselClients}`}>
-        <button className={`${styles.arrowButton} ${styles.prevButton}`} onClick={previous}>
+        <button
+          className={`${styles.arrowButton} ${styles.prevButton}`}
+          onClick={previous}
+        >
           <ArrowPrevSVG />
         </button>
         <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
           {clients}
         </Slider>
-        <button className={`${styles.arrowButton} ${styles.nextButton}`} onClick={next}>
+        <button
+          className={`${styles.arrowButton} ${styles.nextButton}`}
+          onClick={next}
+        >
           <ArrowNextSVG />
         </button>
       </div>

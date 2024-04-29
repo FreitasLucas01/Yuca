@@ -33,15 +33,45 @@
 }
 
 .prevButton {
-  top: 50%;
+  top: 44.7%;
   left: -7%;
   cursor: pointer;
 }
 
 .nextButton {
-  top: 50%;
+  top: 44.7%;
   right: -7%;
   cursor: pointer;
+}
+
+
+.buttonBar {
+  margin-inline: auto;
+  max-width: max-content;
+  margin-top: 28px;
+}
+
+.buttonBar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.buttonBar li button {
+  border: none;
+  background: rgba(116,39,148, 0.4);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+:global(li.slick-active button) {
+  background: var(--color-dark);
 }
 
 @media (max-width: 1024px) {
@@ -74,7 +104,12 @@
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
+  .carouselContainer {
+    /* background: url("../img/carouselBackground.svg") no-repeat center;
+    height: 100vh; */
+  }
+
   .carouselTexts {
     padding-top: 20px;
   }
@@ -83,7 +118,7 @@
     max-width: 300px;
   }
 
-.arrowButton {
-  display: none;
-}
+  .arrowButton {
+    display: none;
+  }
 }
