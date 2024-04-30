@@ -118,6 +118,6 @@
   .buttonBar li button {
     height: 1px;
     width: 1px;
-    border-radius: 50%;
+    border-radius: initial;
   }
 }
