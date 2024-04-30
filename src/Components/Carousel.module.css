@@ -53,6 +53,8 @@
   display: inline-block;
   margin: 0 10px;
   padding: 0;
+  height: 13px;
+  width: 13px;
   border-radius: 50%;
 }
 
@@ -61,6 +63,9 @@
   background: rgba(116, 39, 148, 0.4);
   color: transparent;
   cursor: pointer;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
 }
 
 :global(li.slick-active button) {
@@ -111,13 +116,13 @@
   }
 
   .buttonBar li {
-    height: 1px;
-    width: 1px;
+    height: 4px;
+    width: 4px;
   }
 
   .buttonBar li button {
-    height: 1px;
-    width: 1px;
+    height: 4px;
+    width: 4px;
     border-radius: initial;
   }
 }
