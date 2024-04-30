@@ -1,7 +1,6 @@
 .carouselContainer {
   background-color: var(--color-secondaryLight);
   padding: 56px 25px;
-  margin-top: 0px;
 }
 
 .carouselTexts {
