@@ -1,0 +1,61 @@
+.copamContainer {
+  background: var(--color-lightDark);
+}
+
+.copamInfo {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 25px;
+}
+
+.copamImg {
+  margin-right: 55px;
+}
+
+.copamTitle {
+  font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
+  color: var(--color-darker);
+  max-width: 10ch;
+  margin-bottom: 30px;
+}
+
+.copamSubtitle {
+  font: var(--font-weight-600) var(--font-size-smallest) / 1.25 var(--font-sans);
+  max-width: 25ch;
+}
+
+@media (max-width: 1024px) {
+  .copamImg {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .copamInfo {
+    max-width: 1200px;
+    grid-template-columns: 1fr;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 25px;
+  }
+
+  .copamTitle {
+    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+    color: var(--color-darker);
+    max-width: initial;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .copamSubtitle {
+    font: var(--font-weight-600) var(--font-size-smallest) / 1.25
+      var(--font-sans);
+    max-width: 63ch;
+    text-align: center;
+    margin-inline: auto;
+  }
+}

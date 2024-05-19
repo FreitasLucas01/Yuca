@@ -36,7 +36,6 @@ const Project = () => {
               <p className={`${styles.projectItemNumber}`}>R$ 25.000,00</p>
             </li>
             <Button
-              className={`${styles.teste}`}
               style={{
                 width: "100%",
                 gridColumn: "1/-1",

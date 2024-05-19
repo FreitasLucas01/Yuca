@@ -77,15 +77,6 @@ const Carousel = () => {
     },
   ];
 
-  const clients = clientsData.map((items) => (
-    <CardCarousel
-      url={items.url}
-      name={items.name}
-      role={items.role}
-      description={items.description}
-    />
-  ));
-
   return (
     <section className={`${styles.carouselContainer}`}>
       <div className={`${styles.carouselTexts}`}>
@@ -102,7 +93,15 @@ const Carousel = () => {
           <ArrowPrevSVG />
         </button>
         <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
-          {clients}
+          {clientsData.map((items) => (
+            <CardCarousel
+              key={items.id}
+              url={items.url}
+              name={items.name}
+              role={items.role}
+              description={items.description}
+            />
+          ))}
         </Slider>
         <button
           className={`${styles.arrowButton} ${styles.nextButton}`}

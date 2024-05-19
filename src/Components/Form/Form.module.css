@@ -1,0 +1,16 @@
+.form {
+  max-width: 568px;
+  background: var(--color-lightest);
+  padding: 45px;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .form {
+    width: 100%;
+    max-width: 500px;
+    margin-inline: auto;
+    margin-top: 50px;
+    padding: 35px 25px;
+  }
+}

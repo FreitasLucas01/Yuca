@@ -7,7 +7,7 @@ import Investing from "./Components/Investing";
 import Project from "./Components/Project";
 import ProjectDetails from "./Components/ProjectDetails";
 import Carousel from "./Components/Carousel";
-import CardCarousel from "./Components/CardCarousel";
+import Copam from "./Components/Copam";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Project />
       <ProjectDetails />
       <Carousel />
-      {/* <CardCarousel /> */}
+      <Copam />
       <Footer />
     </div>
   );

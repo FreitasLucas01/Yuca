@@ -116,13 +116,12 @@
   }
 
   .buttonBar li {
-    height: 4px;
-    width: 4px;
+    height: 12px;
+    width: 12px;
   }
 
   .buttonBar li button {
-    height: 4px;
-    width: 4px;
-    border-radius: initial;
+    height: 12px;
+    width: 12px;
   }
 }
