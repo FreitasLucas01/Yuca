@@ -5,6 +5,14 @@
   border-radius: 12px;
 }
 
+.submit {
+  display: block;
+  font: var(--font-weight-500) var(--font-size-smaller) / 1.38 var(--font-sans-2);
+  text-align: center;
+  margin-top: 30px;
+  color: var(--color-stronger);
+}
+
 @media (max-width: 800px) {
   .form {
     width: 100%;
@@ -13,4 +21,10 @@
     margin-top: 50px;
     padding: 35px 25px;
   }
+
+  .submit {
+    font: var(--font-weight-500) var(--font-size-tiny) / 1.38 var(--font-sans-2);
+    margin-top: 30px;
+  }
+  
 }

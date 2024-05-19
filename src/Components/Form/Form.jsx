@@ -1,16 +1,18 @@
 /* eslint-disable no-useless-escape */
-import React, { useState } from "react";
+import React from "react";
 import Input from "./Input";
 import Button from "./Button";
 import styles from "./Form.module.css";
 
 const Form = () => {
-  const [values, setValues] = useState({
+  const [values, setValues] = React.useState({
     username: "",
     phone: "",
     email: "",
     invest: "",
   });
+
+  const [submit, setSubmit] = React.useState(null);
 
   const inputs = [
     {
@@ -57,6 +59,7 @@ const Form = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
+    setSubmit("Informações enviadas com sucesso!");
   }
 
   const onChange = (e) => {
@@ -73,20 +76,24 @@ const Form = () => {
           onChange={onChange}
         />
       ))}
-      <Button
-        style={{
-          display: "block",
-          width: "100%",
-          maxWidth: "387px",
-          marginInline: "auto",
-          marginTop: "48px",
-          font: "var(--font-weight-600) var(--font-size-small) / 1.2 var(--font-sans)",
-          padding: "10px 0",
-          background: "var(--color-dark)",
-        }}
-      >
-        Quero investir
-      </Button>
+      {submit ? (
+        <span className={`${styles.submit}`}>{submit}</span>
+      ) : (
+        <Button
+          style={{
+            display: "block",
+            width: "100%",
+            maxWidth: "387px",
+            marginInline: "auto",
+            marginTop: "35px",
+            font: "var(--font-weight-600) var(--font-size-small) / 1.2 var(--font-sans)",
+            padding: "10px 0",
+            background: "var(--color-dark)",
+          }}
+        >
+          Quero investir
+        </Button>
+      )}
     </form>
   );
 };
