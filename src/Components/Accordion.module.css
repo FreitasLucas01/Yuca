@@ -47,27 +47,20 @@
 
 @media (max-width: 800px) {
   .title {
-    font: var(--font-weight-500) var(--font-size-smallest) / 1.15
+    font: var(--font-weight-500) var(--font-size-tiny) / 1.15
       var(--font-sans);
   }
 
   .content {
-    color: var(--color-dark);
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
-    font: var(--font-weight-500) var(--font-size-smallest) / 1.15
+    font: var(--font-weight-500) var(--font-size-tiny) / 1.15
       var(--font-sans);
-    margin: 15px 0px 26px 30px;
+    margin: 10px 0px 10px 30px;
     max-width: 55ch;
     margin-inline: none;
   }
 
   .content.show {
     margin-inline: none;
-    height: auto;
-    max-height: 9999px;
-    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
     margin-left: 30px;
   }
 }
