@@ -78,7 +78,7 @@ const Carousel = () => {
   ];
 
   return (
-    <section className={`${styles.carouselContainer}`}>
+    <section className={`${styles.carousel}`}>
       <div className={`${styles.carouselTexts}`}>
         <h2 className={`${styles.carouselTitle}`}>Quem investe com a Yuca</h2>
         <p className={`${styles.carouselSubtitle}`}>

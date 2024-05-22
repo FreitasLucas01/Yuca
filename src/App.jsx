@@ -8,6 +8,7 @@ import Project from "./Components/Project";
 import ProjectDetails from "./Components/ProjectDetails";
 import Carousel from "./Components/Carousel";
 import Copam from "./Components/Copam";
+import Doubts from "./Components/Doubts";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ProjectDetails />
       <Carousel />
       <Copam />
+      <Doubts />
       <Footer />
     </div>
   );

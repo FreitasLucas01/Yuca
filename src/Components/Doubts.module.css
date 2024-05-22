@@ -1,0 +1,10 @@
+.doubts{
+  padding: 70px 25px;
+}
+
+.doubtsTitle{
+  font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
+  color: var(--color-darker);
+  text-align: center;
+  margin-bottom: 77px;
+}
