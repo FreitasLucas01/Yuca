@@ -49,6 +49,7 @@
   .title {
     font: var(--font-weight-500) var(--font-size-tiny) / 1.15
       var(--font-sans);
+  border: 2px dotted var(--color-primaryLight);
   }
 
   .content {
