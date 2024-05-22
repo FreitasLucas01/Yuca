@@ -1,10 +1,21 @@
-.doubts{
+.doubts {
   padding: 70px 25px;
 }
 
-.doubtsTitle{
+.doubtsTitle {
   font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
   color: var(--color-darker);
   text-align: center;
   margin-bottom: 77px;
+}
+
+@media (max-width: 800px) {
+  .doubts {
+    padding: 60px 25px;
+  }
+  
+  .doubtsTitle {
+    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+    margin-bottom: 21px;
+  }
 }
