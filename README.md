@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img align="center" src="./img/logo-readme.svg"> </p> <br>
+<p align="center"><img align="center" src="./src/Assets/yuka.svg"> </p> <br>
 
 <h1 align="center"> Portófio </h1>
 
