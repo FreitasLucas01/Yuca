@@ -9,12 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font: var(--font-weight-500) var(--font-size-smallest) / 1 var(--font-sans-2);
+  font: var(--font-weight-500) var(--font-size-tiny) / 1 var(--font-sans-2);
   color: var(--color-dark);
 }
 
 .footerText {
-  font: var(--font-weight-400) var(--font-size-smallest) / 1 var(--font-sans);
+  font: var(--font-weight-400) var(--font-size-tiny) / 1 var(--font-sans-2);
   color: var(--color-light);
   text-align: center;
   margin-top: 43px;
