@@ -40,9 +40,8 @@
 
 <p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br>
 
-✔️HTML<br><br>
+✔️React<br><br>
 ✔️CSS<br><br>
-✔️JavaScript<br><br>
 
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br><br>
 
@@ -50,7 +49,7 @@
 
 <p>Projeto foi desenvolvido em parceria com uma designer. Resultado final e alterações foram aprovados pela designer que produziu layout.
 
-Projeto no Figma: https://www.figma.com/file/mTayCzjijV8HGGSjkiewER/SafraPay---Redesign-(Behance)?node-id=173%3A1508</p>
+Projeto no Figma: https://www.figma.com/design/RvemE2l8xtMfqrZQVJyReE/ebac---invest?node-id=168-58&t=bD5r2kaKrcIwX2En-1</p>
 
 <hr>
 <br>
