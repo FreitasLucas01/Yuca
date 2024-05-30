@@ -22,7 +22,7 @@
 <br>
 <p align="center">
 <a href="https://thunderous-sunburst-13e785.netlify.app">
-<img alt="Demo on Netlify" data-canonical-src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png" style="max-width: 100%;">
+<img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png" style="max-width: 100%;">
 </a></p>
 <br>
 
@@ -42,8 +42,6 @@
 
 ✔️React<br><br>
 ✔️CSS<br><br>
-
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br><br>
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
