@@ -14,10 +14,8 @@ const Accordion = ({ data }) => {
   };
 
   return (
-    // <div className={`${styles.wrapper}`}>
     <div className={`${styles.accordion}`}>
       {data.map((item, index) => (
-        // <div className={`${styles.item}`}>
         <>
           <div className={`${styles.title}`} onClick={() => toggle(index)}>
             {item.question}
@@ -38,11 +36,9 @@ const Accordion = ({ data }) => {
           >
             {item.answer}
           </div>
-          {/* </div> */}
         </>
       ))}
     </div>
-    // </div>
   );
 };
 

@@ -28,12 +28,10 @@
 
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
-- [x] Página totalmente responsiva <br>
-- [x] Menu Hambúrguer</br>
-- [x] Simulador de vendas como pessoas física e jurídica <br>
-- [x] Slider carousel <br>
-- [x] Cores correspondentes ao produto<br>
-- [x] Projeto focado em design UX/UI <br>
+- [x] Página totalmente responsiva<br>
+- [x] Slider carousel com React Slick</br>
+- [x] Validação de formuário<br>
+- [x] React Hooks e Custom Hooks<br>
 - [x] Acessibilidade<br><br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
