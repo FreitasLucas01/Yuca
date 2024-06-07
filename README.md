@@ -30,7 +30,7 @@
 
 - [x] Página totalmente responsiva<br>
 - [x] Slider carousel com React Slick</br>
-- [x] Validação de fromulário<br>
+- [x] Validação de formulário<br>
 - [x] React Hooks e Custom Hooks<br>
 - [x] Acessibilidade<br><br>
 
