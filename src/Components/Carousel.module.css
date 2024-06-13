@@ -43,29 +43,34 @@
 }
 
 .buttonBar {
-  margin-inline: auto;
+  /* margin-inline: auto;
   max-width: max-content;
-  margin-top: 28px;
+  margin-top: 28px; */
 }
 
 .buttonBar li {
-  cursor: pointer;
+  /* cursor: pointer;
   display: inline-block;
   margin: 0 10px;
   padding: 0;
   height: 13px;
   width: 13px;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .buttonBar li button {
-  border: none;
+  /* border: none;
   background: rgba(116, 39, 148, 0.4);
   color: transparent;
   cursor: pointer;
   height: 13px;
   width: 13px;
+  border-radius: 50%; */
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
+  background: none;
+  border: none;
 }
 
 :global(li.slick-active button) {
