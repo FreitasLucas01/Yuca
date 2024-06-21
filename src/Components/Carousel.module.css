@@ -1,4 +1,4 @@
-.carousel{
+.carousel {
   background-color: var(--color-secondaryLight);
   padding: 56px 25px;
 }
@@ -55,7 +55,6 @@
   padding: 0;
   height: 13px;
   width: 13px;
-  border-radius: 50%;
 }
 
 .buttonBar li button {
@@ -121,7 +120,8 @@
   }
 
   .buttonBar li button {
-    height: 12px;
-    width: 12px;
+    height: 8px;
+    width: 8px;
+    padding: 0;
   }
 }
