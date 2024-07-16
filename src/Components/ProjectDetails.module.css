@@ -1,10 +1,15 @@
 .projectDetails {
   max-width: 1000px;
   margin-inline: auto;
+  padding: 80px 25px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 75px 25px 0px 25px;
-  gap: 150px;
+  gap: 0 100px;
+}
+
+.projectDetailsTexts {
+  grid-area: 1/1;
+  margin-top: 20px;
 }
 
 .projectDetailsTitle {
@@ -14,155 +19,225 @@
 }
 
 .projectDetailsSubtitle {
-  font: var(--font-weight-400) var(--font-size-smallest) / 1.35
+  font: var(--font-weight-400) var(--font-size-smallest) / 1.4
     var(--font-sans-2);
   max-width: 31ch;
-  margin-bottom: 100px;
-}
-
-.cardBackground {
-  position: relative;
-  max-width: 100%;
-  height: 80vh;
-}
-
-.cardBackgroundCouch {
-  background: url("../img/couch.svg") center no-repeat;
-}
-.cardBackgroundManLaptop {
-  background: url("../img/manLaptop.svg") center no-repeat;
-}
-.cardBackgroundWomanLaptop {
-  background: url("../img/womanLaptop.svg") center no-repeat;
-}
-.cardBackgroundBed {
-  background: url("../img/bed.svg") center no-repeat;
 }
 
 .cardContainer {
+  position: relative;
+}
+
+.cardGridBlocks {
+  grid-area: 1/1;
+  margin-top: 365px;
+  margin-bottom: 588px;
+}
+
+.cardGridHouse {
+  grid-area: 1/1;
+  align-self: end;
+}
+
+.cardGridInvesting {
+  grid-area: 1/2;
+  align-self: start;
+}
+
+.cardGridGraphic {
+  grid-area: 1/2;
+  align-self: center;
+  margin-top: 640px;
+}
+
+.cardInfo {
   position: absolute;
-  width: 341px;
-  height: 220px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  gap: 18px;
-}
-
-.cardContainerColor1 {
-  background: var(--color-soft);
-  padding-left: 20px;
-  top: -27px;
-  left: -53px;
-}
-.cardContainerColor2 {
-  background: var(--color-secondaryLight);
-  top: -30px;
-  left: 150px;
-}
-.cardContainerColor2::after {
-  content: url("../img/leafDown.svg");
-  position: absolute;
-  bottom: -129px;
-  right: -35px;
-}
-.cardContainerColor3 {
-  background: var(--color-softer);
-  top: 22px;
-  right: 150px;
-}
-.cardContainerColor3::before {
-  content: url("../img/leafUp.svg");
-  position: absolute;
-  top: -126px;
-  left: -71px;
-}
-.cardContainerColor4 {
-  background: var(--color-lighter);
-  right: -36px;
-}
-
-.cardContainerSmaller {
-  max-height: 159px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
 
+.cardBackgroundBlocks {
+  top: -150px;
+  left: 160px;
+  max-width: 335px;
+  padding: 25px 0;
+  background: var(--color-secondaryLight);
+}
+.cardBackgroundBlocks::after {
+  position: absolute;
+  top: 216px;
+  left: 164px;
+  content: "";
+  display: inline-block;
+  background: url("../img/leafDown.svg") no-repeat center;
+  width: 206px;
+  height: 125px;
+}
+
+.cardBackgroundHouse {
+  top: -97.5px;
+  left: 80px;
+  max-width: 408px;
+  padding: 25px 0;
+  background: var(--color-lighter);
+}
+
+.cardBackgroundInvesting {
+  top: -27px;
+  left: -50px;
+  max-width: 335px;
+  padding: 25px 0;
+  background: var(--color-soft);
+}
+
+.cardBackgroundGraphic {
+  top: -24px;
+  left: -50px;
+  max-width: 252px;
+  padding: 25px 0;
+  background: var(--color-softer);
+}
+.cardBackgroundGraphic::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -127px;
+  left: -72px;
+  background: url("../img/leafUp.svg") no-repeat center;
+  width: 115px;
+  height: 128px;
+}
+
+.investingSvg {
+  margin-top: 12px;
+}
+
 .cardTitle {
-  font: var(--font-weight-600) var(--font-size-smallest) / 1.35
-    var(--font-sans-2);
-  max-width: 22ch;
+  font: var(--font-weight-600) var(--font-size-smaller) / 1.4 var(--font-sans);
+  margin-bottom: 20px;
+}
+.cardTitleWidthInvesting {
+  max-width: 12ch;
 }
 
-.cardImg {
-  margin-top: 37px;
+.cardSubtitle {
+  font: var(--font-weight-400) var(--font-size-tiny) / 1.4 var(--font-sans-2);
+}
+.cardSubtitleWidthBlocks {
+  max-width: 24ch;
+}
+.cardSubtitleWidthHouse {
+  max-width: 31ch;
+}
+.cardSubtitleWidthInvesting {
+  max-width: 25ch;
+}
+.cardSubtitleWidthGraphic {
+  max-width: 15ch;
 }
 
-.cardText {
-  font: var(--font-weight-400) var(--font-size-tiny) / 1.5 var(--font-sans-2);
-  max-width: 27ch;
-}
-
-@media (max-width: 930px) {
+@media (max-width: 1060px) {
   .projectDetails {
-    margin-inline: auto;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    gap: 0;
+    max-width: 1000px;
+    padding: 40px 25px;
+    display: block;
+  }
+
+  .projectDetailsTexts {
+    text-align: center;
+    margin-top: 0;
   }
 
   .projectDetailsTitle {
-    text-align: center;
+    margin-bottom: 10px;
   }
 
   .projectDetailsSubtitle {
-    text-align: center;
+    margin-inline: auto;
     max-width: 50ch;
-    margin-bottom: 50px;
-    margin-inline: auto;
-  }
-
-  .cardBackground {
-    position: initial;
-    max-width: max-content;
-    margin-inline: auto;
-    height: max-content;
+    margin-bottom: 40px;
   }
 
   .cardContainer {
-    padding: 20px;
+    margin-inline: auto;
+    max-width: 500px;
+  }
+
+  .cardPhotos {
+    display: none;
+  }
+
+  .cardInfo {
     position: initial;
-    width: initial;
-    height: initial;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 25px;
   }
 
-  .cardContainerColor1 {
-    padding: 20px 15px;
-    gap: 10px;
+  .cardTitleWidthInvesting {
+    max-width: initial;
   }
 
-  .cardContainerColor2::after {
-    content: initial;
-  }
-  .cardContainerColor3::before {
-    content: initial;
-  }
-
-  .cardImg {
+  .cardGridBlocks {
     margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .cardGridGraphic {
+    margin-top: 0px;
+  }
+
+  .cardBackgroundBlocks {
+    max-width: 100%;
+  }
+  .cardBackgroundBlocks::after {
+    content: none;
+  }
+
+  .cardBackgroundHouse {
+    max-width: 100%;
+  }
+
+  .cardBackgroundInvesting {
+    max-width: 100%;
+  }
+
+  .cardBackgroundGraphic {
+    max-width: 100%;
+  }
+  .cardBackgroundGraphic::before {
+    content: none;
+  }
+
+  .investingSvg {
+    margin-top: 0px;
+  }
+
+  .cardSubtitleWidthBlocks {
+    max-width: initial;
+  }
+  .cardSubtitleWidthHouse {
+    max-width: initial;
+  }
+  .cardSubtitleWidthInvesting {
+    max-width: initial;
+  }
+  .cardSubtitleWidthGraphic {
+    max-width: initial;
   }
 }
 
 @media (max-width: 800px) {
-  .projectDetails {
-    padding: 40px 25px;
-  }
-
   .projectDetailsTitle {
     font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+    margin-bottom: 10px;
+  }
+
+  .projectDetailsSubtitle {
+    margin-inline: auto;
+    max-width: 50ch;
+    margin-bottom: 40px;
   }
 }
