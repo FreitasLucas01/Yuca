@@ -73,8 +73,8 @@ const ProjectDetails = () => {
       </div>
       <div className={`${styles.cardContainer} ${styles.cardGridGraphic}`}>
         <div className={`${styles.cardInfo} ${styles.cardBackgroundGraphic}`}>
-          <GraphicSvg className={styles.graphicSvg} />
-          <div>
+          <GraphicSvg />
+          <div className={styles.cardTextsGraphic}>
             <h2 className={`${styles.cardTitle}`}>Rendimentos</h2>
             <p
               className={`${styles.cardSubtitle} ${styles.cardSubtitleWidthGraphic}`}

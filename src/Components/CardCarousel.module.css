@@ -1,5 +1,5 @@
 .card {
-  font: var(--font-weight-500) var(--font-size-tiny) / 1.38 var(--font-sans-2);
+  font: var(--font-weight-500) var(--font-size-tiny) / 1.2 var(--font-sans-2);
   margin-inline: auto;
   max-width: 400px;
   padding: 22px;
@@ -17,7 +17,7 @@
 .cardNameRole {
   display: flex;
   margin-inline: auto;
-  border-bottom: solid;
+  border-bottom: 1px solid;
   border-color: var(--color-dark);
 }
 

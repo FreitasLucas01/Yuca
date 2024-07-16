@@ -67,7 +67,7 @@
 }
 .cardBackgroundBlocks::after {
   position: absolute;
-  top: 216px;
+  top: 210px;
   left: 164px;
   content: "";
   display: inline-block;
@@ -116,10 +116,14 @@
 
 .cardTitle {
   font: var(--font-weight-600) var(--font-size-smaller) / 1.4 var(--font-sans);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .cardTitleWidthInvesting {
   max-width: 12ch;
+}
+
+.cardTextsGraphic{
+  margin-top: 3px;
 }
 
 .cardSubtitle {
@@ -239,5 +243,11 @@
     margin-inline: auto;
     max-width: 50ch;
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 429px) {
+  .investingSvg {
+    margin-top: 12px;
   }
 }

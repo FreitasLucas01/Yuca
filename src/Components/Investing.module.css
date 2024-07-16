@@ -35,7 +35,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   padding: 0 10px;
   background: var(--color-primaryLight);
   text-align: center;
@@ -51,12 +51,12 @@
 }
 
 .wrapperText {
-  font: var(--font-weight-400) var(--font-size-tiny) / 1.57 var(--font-sans);
-  max-width: 30ch;
+  font: var(--font-weight-400) var(--font-size-tiny) / 1.57 var(--font-sans-2);
+  max-width: 29ch;
   margin-inline: auto;
 }
 .wrapperText.wrapperTextSmaller {
-  max-width: 26ch;
+  max-width: 27ch;
 }
 
 @media (max-width: 800px) {
@@ -65,7 +65,7 @@
   }
 
   .investingTitle {
-    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans);
+    font: var(--font-weight-700) var(--font-size-large) / 1.2 var(--font-sans-2);
     color: var(--color-dark);
     margin-bottom: 20px;
   }
