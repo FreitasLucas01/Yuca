@@ -23,6 +23,6 @@ const Copam = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Copam;
