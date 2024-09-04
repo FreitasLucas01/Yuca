@@ -39,6 +39,7 @@
 <p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br>
 
 ✔️React<br><br>
+✔️React Slick<br><br>
 ✔️CSS<br><br>
 
 <h2 id="projeto"> 💻 Projeto </h2>
