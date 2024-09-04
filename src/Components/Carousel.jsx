@@ -90,7 +90,7 @@ const Carousel = () => {
           className={`${styles.arrowButton} ${styles.prevButton}`}
           onClick={previous}
         >
-          <ArrowPrevSVG />
+          <ArrowPrevSVG aria-label="Button Previous Element"/>
         </button>
         <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
           {clientsData.map((items) => (
@@ -107,7 +107,7 @@ const Carousel = () => {
           className={`${styles.arrowButton} ${styles.nextButton}`}
           onClick={next}
         >
-          <ArrowNextSVG />
+          <ArrowNextSVG aria-label="Button Next Element"/>
         </button>
       </div>
     </section>

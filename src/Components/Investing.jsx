@@ -20,7 +20,7 @@ const Investing = () => {
       <ul className={`${styles.wrapper}`}>
         <li className={`${styles.wrapperList}`}>
           <ArrowSvg />
-          <h4 className={`${styles.wrapperTitle} ${styles.wrapperTitleSmaller}`}>Investimento seguro e lucrativo</h4>
+          <p className={`${styles.wrapperTitle} ${styles.wrapperTitleSmaller}`}>Investimento seguro e lucrativo</p>
           <p className={`${styles.wrapperText}`}>
             Imóveis com alta taxa de ocupação em localizações estratégicas,
             reformados e expostos à valorização imobiliária.
@@ -28,7 +28,7 @@ const Investing = () => {
         </li>
         <li className={`${styles.wrapperList}`}>
           <WalletSvg />
-          <h4 className={`${styles.wrapperTitle}`}>Sua carteira com estabilidade e liquidez</h4>
+          <p className={`${styles.wrapperTitle}`}>Sua carteira com estabilidade e liquidez</p>
           <p className={`${styles.wrapperText} ${styles.wrapperTextSmaller}`}>
             Moradia é uma necessidade básica. A Yuca oferece oportunidades
             reais, estáveis e boas para diversificação
@@ -36,7 +36,7 @@ const Investing = () => {
         </li>
         <li className={`${styles.wrapperList}`}>
           <CoinSvg />
-          <h4 className={`${styles.wrapperTitle}`}>Excelente retorno financeiro</h4>
+          <p className={`${styles.wrapperTitle}`}>Excelente retorno financeiro</p>
           <p className={`${styles.wrapperText}`}>
             Rendimentos mensais sem esforços, gerados a partir de operações
             mantidas 100% pela Yuca.

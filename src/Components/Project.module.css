@@ -13,6 +13,11 @@
   margin-inline: auto;
 }
 
+.projectDetails button{
+  max-width: 500px;
+  margin-bottom: 56px;
+}
+
 .projectTitle {
   font: var(--font-weight-600) var(--font-size-larger) / 1 var(--font-sans);
   color: var(--color-dark);

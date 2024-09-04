@@ -35,18 +35,18 @@ const Project = () => {
               <p className={`${styles.projectItemText}`}>Valor da cota</p>
               <p className={`${styles.projectItemNumber}`}>R$ 25.000,00</p>
             </li>
-            <Button
-              style={{
-                width: "100%",
-                gridColumn: "1/-1",
-                font: "var(--font-weight-600) var(--font-size-big) / 1 var(--font-sans)",
-                padding: "15px 0",
-                background: "var(--color-darker)",
-              }}
-            >
-              Quero investir
-            </Button>
           </ul>
+          <Button
+            style={{
+              width: "100%",
+              gridColumn: "1/-1",
+              font: "var(--font-weight-600) var(--font-size-big) / 1 var(--font-sans)",
+              padding: "15px 0",
+              background: "var(--color-darker)",
+            }}
+          >
+            Quero investir
+          </Button>
         </div>
         <FamilySvg className={`${styles.projectImg}`} />
         <BedSvg className={`${styles.projectImg}`} />

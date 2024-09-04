@@ -8,7 +8,7 @@
   padding: 16px 24px;
   margin-inline: auto;
   font: var(--font-weight-600) var(--font-size-smallest) / 1.15 var(--font-sans);
-  color: gray;
+  color: var(--color-darker);
   border: 2px solid var(--color-primaryLight);
   cursor: pointer;
   display: grid;
